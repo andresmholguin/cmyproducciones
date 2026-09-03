@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import { ScrollTrigger } from './lib/gsap.js'
 import SequenceBackground from './components/SequenceBackground/SequenceBackground.jsx'
 import Header from './components/Header/Header.jsx'
@@ -12,9 +12,8 @@ import Footer from './components/Footer/Footer.jsx'
 import WhatsApp from './components/WhatsApp/WhatsApp.jsx'
 
 function App() {
-  const wrapRef = useRef(null)
-
   useEffect(() => {
+    ScrollTrigger.refresh()
     const refresh = () => ScrollTrigger.refresh()
     window.addEventListener('load', refresh)
     return () => window.removeEventListener('load', refresh)
@@ -24,14 +23,11 @@ function App() {
     <>
       <Header />
       <main>
-        <div ref={wrapRef} className="relative">
-          <SequenceBackground wrapRef={wrapRef} />
-          <div className="relative z-[1] -mt-[100svh]">
-            <Hero />
-            <Servicios />
-            <Galeria />
-          </div>
-        </div>
+        <SequenceBackground>
+          <Hero />
+          <Servicios />
+          <Galeria />
+        </SequenceBackground>
         <Nosotros />
         <Faq />
         <Contacto />

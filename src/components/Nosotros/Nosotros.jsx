@@ -86,7 +86,7 @@ function Nosotros() {
               <div className="relative overflow-hidden rounded-2xl border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.5)]">
                 {imgOk ? (
                   <motion.img
-                    src="/images/team.jpg"
+                    src="/images/team.webp"
                     alt="Equipo de CMY Producciones en evento en vivo"
                     className="w-full h-[300px] md:h-[440px] object-cover"
                     onError={() => setImgOk(false)}
@@ -103,7 +103,7 @@ function Nosotros() {
                     <p className="text-zinc-400 text-[0.95rem]">
                       Agrega tu foto aquí
                       <span className="block text-zinc-600 text-[0.85rem] mt-1">
-                        public/images/team.jpg
+                        public/images/team.webp
                       </span>
                     </p>
                   </div>

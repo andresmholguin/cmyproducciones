@@ -28,6 +28,7 @@ Thumbs.db
 .agents/
 .github/
 .impeccable/
-tests/
-playwright.config.ts
-skills-lock.json
+# Playwright
+test-results/
+playwright-report/
+

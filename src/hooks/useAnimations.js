@@ -1,12 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { useInView, useMotionValue, useSpring, useTransform } from 'framer-motion'
-
-// Reveal al hacer scroll (una sola vez)
-export function useReveal(threshold = 0.15) {
-  const ref = useRef(null)
-  const inView = useInView(ref, { once: true, margin: '-50px' })
-  return { ref, inView }
-}
+import { useInView } from 'framer-motion'
 
 // Efecto typewriter: escribe el texto letra por letra cuando entra en viewport
 export function useTypewriter(text, { speed = 80, startDelay = 500 } = {}) {
@@ -60,31 +53,4 @@ export function useCounter(target, duration = 2000) {
   }, [inView, target, duration])
 
   return { ref, value }
-}
-
-// Tilt 3D: rota un elemento según la posición del mouse
-export function useTilt(max = 12, scale = 1.04) {
-  const ref = useRef(null)
-  const x = useMotionValue(0.5)
-  const y = useMotionValue(0.5)
-  const rotateX = useSpring(useTransform(y, [0, 1], [max, -max]), { stiffness: 200, damping: 20 })
-  const rotateY = useSpring(useTransform(x, [0, 1], [-max, max]), { stiffness: 200, damping: 20 })
-
-  const handleMouseMove = (e) => {
-    const rect = ref.current?.getBoundingClientRect()
-    if (!rect) return
-    x.set((e.clientX - rect.left) / rect.width)
-    y.set((e.clientY - rect.top) / rect.height)
-  }
-
-  const handleMouseLeave = () => {
-    x.set(0.5)
-    y.set(0.5)
-  }
-
-  return {
-    ref,
-    style: { rotateX, rotateY, transformPerspective: 900, scale },
-    handlers: { onMouseMove: handleMouseMove, onMouseLeave: handleMouseLeave },
-  }
 }

@@ -3,12 +3,12 @@ import SectionHeading from '../SectionHeading/SectionHeading.jsx'
 import Beam from '../Beam/Beam.jsx'
 
 const EVENTOS = [
-  { src: '/images/gallery/event1.jpg', alt: 'Concierto - Producción de luces y sonido', tag: 'Concierto' },
-  { src: '/images/gallery/event2.jpg', alt: 'Evento corporativo - Pantallas LED', tag: 'Corporativo' },
-  { src: '/images/gallery/event3.jpg', alt: 'Show en vivo - Efectos especiales', tag: 'Show en vivo' },
-  { src: '/images/gallery/event4.jpg', alt: 'Festival - Producción integral', tag: 'Festival' },
-  { src: '/images/gallery/event5.jpg', alt: 'Evento social - Iluminación ambiental', tag: 'Evento Social' },
-  { src: '/images/gallery/event6.jpg', alt: 'Evento deportivo - Pantallas LED gigantes', tag: 'Deportivo' },
+  { src: '/images/gallery/event1.webp', alt: 'Concierto - Producción de luces y sonido', tag: 'Concierto' },
+  { src: '/images/gallery/event2.webp', alt: 'Evento corporativo - Pantallas LED', tag: 'Corporativo' },
+  { src: '/images/gallery/event3.webp', alt: 'Show en vivo - Efectos especiales', tag: 'Show en vivo' },
+  { src: '/images/gallery/event4.webp', alt: 'Festival - Producción integral', tag: 'Festival' },
+  { src: '/images/gallery/event5.webp', alt: 'Evento social - Iluminación ambiental', tag: 'Evento Social' },
+  { src: '/images/gallery/event6.webp', alt: 'Evento deportivo - Pantallas LED gigantes', tag: 'Deportivo' },
 ]
 
 const TAG_DOTS = ['bg-gel-cyan', 'bg-gel-yellow', 'bg-gel-magenta']

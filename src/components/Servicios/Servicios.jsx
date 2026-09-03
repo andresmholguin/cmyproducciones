@@ -7,7 +7,7 @@ import Beam from '../Beam/Beam.jsx'
 const SERVICIOS = [
   {
     num: '01',
-    img: '/images/gallery/event3.jpg',
+    img: '/images/gallery/event3.webp',
     imgAlt: 'Show en vivo con iluminación escénica CMY',
     title: 'Luces',
     tagline: 'Atmósfera y espectáculo',
@@ -17,7 +17,7 @@ const SERVICIOS = [
   },
   {
     num: '02',
-    img: '/images/gallery/event5.jpg',
+    img: '/images/gallery/event5.webp',
     imgAlt: 'Evento social con sonido profesional CMY',
     title: 'Sonido',
     tagline: 'Potencia y claridad',
@@ -27,7 +27,7 @@ const SERVICIOS = [
   },
   {
     num: '03',
-    img: '/images/gallery/event6.jpg',
+    img: '/images/gallery/event6.webp',
     imgAlt: 'Pantalla LED gigante en evento deportivo',
     title: 'Pantallas LED',
     tagline: 'Imagen a escala gigante',
@@ -37,7 +37,7 @@ const SERVICIOS = [
   },
   {
     num: '04',
-    img: '/images/gallery/event4.jpg',
+    img: '/images/gallery/event4.webp',
     imgAlt: 'Festival con efectos especiales de luces',
     title: 'Efectos Especiales',
     tagline: 'El factor sorpresa',

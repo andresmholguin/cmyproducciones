@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     q: '¿Cómo solicito un presupuesto?',
-    a: 'Con el formulario de contacto de esta página o por WhatsApp al 314 700 0083, contándonos la fecha, el lugar y el tipo de evento.',
+    a: 'Con el formulario de contacto de esta página o por WhatsApp al 314 700 6083, contándonos la fecha, el lugar y el tipo de evento.',
   },
   {
     q: '¿Con cuánta anticipación debo reservar?',

@@ -17,7 +17,7 @@ function Hero() {
   useGSAP(() => {
     const mm = gsap.matchMedia()
     mm.add('(prefers-reduced-motion: reduce)', () => {
-      gsap.set('.hero-char', { yPercent: 0, rotation: 0 })
+      gsap.set('.hero-char', { yPercent: 0, rotation: 0, autoAlpha: 1 })
       gsap.set(['.hero-sub', '.hero-scroll'], { autoAlpha: 1, y: 0 })
     })
     mm.add('(prefers-reduced-motion: no-preference)', () => {
@@ -25,8 +25,8 @@ function Hero() {
       tl.addLabel('chars', 0)
         .fromTo(
           '.hero-char',
-          { yPercent: 115, rotation: 5 },
-          { yPercent: 0, rotation: 0, duration: 1.1, stagger: 0.028 },
+          { yPercent: 115, rotation: 5, autoAlpha: 0 },
+          { yPercent: 0, rotation: 0, autoAlpha: 1, duration: 1.1, stagger: 0.028 },
           'chars'
         )
         .from('.hero-sub', { y: 30, autoAlpha: 0, duration: 0.9 }, 'chars+=0.55')
@@ -42,19 +42,19 @@ function Hero() {
       className="relative flex justify-center min-h-screen min-h-[100svh]"
     >
       <div className="hero-content relative z-[1] text-center px-5 pt-[120px] pb-20 w-[90%] max-w-[1200px] m-auto">
-        <div className="hero-glass rounded-[28px] border border-white/10 bg-black/30 backdrop-blur-2xl px-6 py-10 md:px-12 md:py-12 shadow-[0_0_80px_rgba(0,188,212,0.10),0_0_160px_rgba(233,30,99,0.08)] [text-shadow:0_2px_20px_rgba(0,0,0,0.9)]">
+        <div className="hero-glass rounded-[28px] border border-white/10 bg-black/30 backdrop-blur-2xl px-6 py-10 md:px-12 md:py-12 shadow-[0_0_80px_rgba(0,188,212,0.10),0_0_160px_rgba(233,30,99,0.08)]">
         <div className="hero-text">
-        <h1 className="text-[clamp(2.5rem,7vw,5rem)] font-bold leading-[1.12] tracking-[-0.025em] mb-6 min-h-[2.3em]">
+        <h1 className="text-[clamp(2.5rem,7vw,5rem)] font-bold text-white leading-[1.12] tracking-[-0.025em] mb-6 min-h-[2.3em]">
           <span className="block" aria-label="Tu evento,">
             {'Tu evento,'.split('').map((ch, i) => (
               <span key={i} className="inline-block overflow-hidden align-bottom" aria-hidden="true">
-                <span className="hero-char inline-block will-change-transform">
+                <span className="hero-char inline-block will-change-transform opacity-0">
                   {ch === ' ' ? ' ' : ch}
                 </span>
               </span>
             ))}
           </span>
-          <span className="text-gel-gradient [text-shadow:none]" ref={typewriter.ref}>
+          <span className="text-gel-gradient" ref={typewriter.ref}>
             {typewriter.displayed}
             {!typewriter.done ? <span className="caret">|</span> : null}
           </span>
