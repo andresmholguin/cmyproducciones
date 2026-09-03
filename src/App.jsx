@@ -6,6 +6,7 @@ import Hero from './components/Hero/Hero.jsx'
 import Servicios from './components/Servicios/Servicios.jsx'
 import Galeria from './components/Galeria/Galeria.jsx'
 import Nosotros from './components/Nosotros/Nosotros.jsx'
+import Faq from './components/Faq/Faq.jsx'
 import Contacto from './components/Contacto/Contacto.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import WhatsApp from './components/WhatsApp/WhatsApp.jsx'
@@ -32,6 +33,7 @@ function App() {
           </div>
         </div>
         <Nosotros />
+        <Faq />
         <Contacto />
       </main>
       <Footer />

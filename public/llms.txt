@@ -1,0 +1,31 @@
+# CMY Producciones
+
+> Empresa de alquiler de equipos profesionales para eventos, con base en Cali, Colombia. Luces, sonido, pantallas LED y efectos especiales para conciertos, eventos corporativos, teatro, eventos sociales y deportivos.
+
+## Servicios
+
+- **Luces**: iluminación escénica profesional (moving heads, barras LED, seguidores, luz ambiental).
+- **Sonido**: equipos de alta fidelidad (line array, subwoofers, mezcladoras, micrófonos).
+- **Pantallas LED**: alta resolución en varios tamaños para video, contenido visual y branding.
+- **Efectos especiales**: láser, humo, confeti y efectos de CO2.
+
+## Cobertura
+
+- Conciertos y festivales
+- Eventos corporativos
+- Teatro y shows en vivo
+- Eventos sociales (bodas, fiestas)
+- Eventos deportivos
+
+## Contacto
+
+- Web: https://cmyproducciones.vercel.app/
+- WhatsApp: +57 314 700 0083 (https://wa.me/573147006083)
+- Email: info@cmyproducciones.com
+- Instagram: https://www.instagram.com/cmycali/
+- Facebook: https://www.facebook.com/people/CMY-Producciones/100034425056386/
+- Ubicación: Cali, Valle del Cauca, Colombia
+
+## Presupuesto
+
+Los presupuestos se solicitan con el formulario en https://cmyproducciones.vercel.app/#contacto o por WhatsApp, indicando fecha, lugar, tipo de evento y servicios requeridos.
