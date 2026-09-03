@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="92.07 22.906 297.769 103.746">
+  <defs>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
+      <path d="M -357.22 249.967 L 458.781 249.967 L 458.781 -138.28 L -357.22 -138.28 L -357.22 249.967 Z" id="path4" style="stroke-width: 1.333;"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
+      <path d="M -357.22 247.034 L 458.781 247.034 L 458.781 -141.22 L -357.22 -141.22 L -357.22 247.034 Z" id="path6" style="stroke-width: 1.333;"/>
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
+      <path d="M -357.22 247.71 L 458.781 247.71 L 458.781 -140.54 L -357.22 -140.54 L -357.22 247.71 Z" id="path8" style="stroke-width: 1.333;"/>
+    </clipPath>
+  </defs>
+  <g>
+    <path id="path3" d="M 186.143 73.526 C 186.143 96.854 167.231 115.766 143.903 115.766 C 120.575 115.766 101.663 96.854 101.663 73.526 C 101.663 50.198 120.575 31.286 143.903 31.286 C 167.231 31.286 186.143 50.198 186.143 73.526" style="fill: rgb(0, 173, 239); fill-opacity: 1; fill-rule: nonzero; stroke: none; stroke-width: 1.333;" clip-path="url(#clipPath4)"/>
+    <path id="path5" d="M 282.957 72.059 C 282.957 95.387 264.045 114.299 240.717 114.299 C 217.389 114.299 198.477 95.387 198.477 72.059 C 198.477 48.731 217.389 29.819 240.717 29.819 C 264.045 29.819 282.957 48.731 282.957 72.059" style="fill: rgb(236, 0, 140); fill-opacity: 1; fill-rule: nonzero; stroke: none; stroke-width: 1.333;" clip-path="url(#clipPath6)"/>
+    <path id="path7" d="M 379.965 72.397 C 379.965 95.725 361.053 114.637 337.725 114.637 C 314.397 114.637 295.485 95.725 295.485 72.397 C 295.485 49.069 314.397 30.157 337.725 30.157 C 361.053 30.157 379.965 49.069 379.965 72.397" style="fill: rgb(255, 242, 0); fill-opacity: 1; fill-rule: nonzero; stroke: none; stroke-width: 1.333;" clip-path="url(#clipPath8)"/>
+  </g>
+</svg>

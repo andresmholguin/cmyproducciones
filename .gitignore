@@ -1,0 +1,33 @@
+# Dependencias
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Vite
+.vite/
+
+# Skills CLI scaffolding (no es parte de la landing)
+.agents/
+.github/
+.impeccable/
+tests/
+playwright.config.ts
+skills-lock.json
